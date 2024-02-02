@@ -1,0 +1,23 @@
+main {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas:
+      " . cirkel  .";
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+}
+body{
+    margin: 0;
+    background-color:rgb(18, 64, 192);
+}
+main div{
+    border-style: solid;
+    border-color: yellow;
+    border-width: 1px;
+    border-radius: 50%;
+    grid-area: cirkel;
+    aspect-ratio: 1;
+    background-color: yellow;
+    height: 100vh;
+}
